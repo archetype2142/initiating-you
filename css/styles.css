@@ -160,3 +160,39 @@ button{
 .links a:hover{
 	color: black;
 }
+#sidebar{
+	background-color: #F5F5F5; 
+	padding-bottom:10px;
+}
+.nav-sidebar img{
+	 padding-top: 15px; 
+	 border:none;
+}
+.nav-sidebar a{
+	color: #ED564B;
+}
+.nav-sidebar a:hover{
+	color: black;
+}
+#sp-box{
+	font-size: 30px; 
+	font-weight: bold; 
+	border: 1px solid #ED564B;
+}
+#sp-box a{
+	text-decoration: none;
+	color: #ED564B;
+}
+#sp-box a:hover{
+	color: #000;
+}
+.int{
+	padding: 20px;
+    text-align: center;
+}
+#circle {
+	padding: 15px 15px;
+    border-radius: 50% 50% 50% 50%;
+    width: 220px;
+    height: auto;
+}
