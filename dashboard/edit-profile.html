@@ -24,19 +24,133 @@
 				</ul>
 			</div>
 			<div class="col-md-9 sidebar">
-				<form class="form-inline">
+				<style type="text/css">
+					/* Adjust feedback icon position */
+					#movieForm .form-control-feedback {
+						right: 15px;
+					}
+					#movieForm .selectContainer .form-control-feedback {
+						right: 25px;
+					}
+				</style>
+
+				<form id="movieForm" method="post">
 					<div class="form-group">
-						<label for="email">Email address:</label>
-						<input type="email" class="form-control" id="email">
+						<div class="row">
+							<div class="col-sm-6">
+								<label class="control-label">First Name</label>
+								<input type="text" class="form-control" name="fname" />
+							</div>
+							<div class="col-sm-6">
+								<label class="control-label">Last Name</label>
+								<input type="text" class="form-control" name="lname"/>
+							</div>
+							<div class="ed-form col-sm-4"">
+								<label class="control-label">Phone Number</label>
+								<input type="integer" class="form-control" name="pno" />
+							</div>
+							<div class="ed-form col-sm-4">
+								<label class="control-label">Date Of Birth</label>
+								<input type="date" class="form-control" name="pno" />
+							</div>
+							<div class="ed-form col-sm-4">
+								<label class="control-label">Gender</label>
+								<div>
+									<label class="radio-inline">
+										<input type="radio" name="gender" value="male" /> Male
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="gender" value="female" /> Female
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="row">
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Qualification</label>
+								<div>
+									<label class="radio-inline">
+										<input type="radio" name="qualification" value="class10" /> Class 10
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="qualification" value="class12" /> Class 12
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="qualification" value="grad" /> Graduate
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="qualification" value="pgrad" /> Post Graduate
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="qualification" value="others" /> Others
+									</label>
+								</div>
+							</div>
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Stream</label>
+								<div>
+									<label class="radio-inline">
+										<input type="radio" name="stream" value="arts" /> Arts
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="stream" value="science" /> Science
+									</label>
+									<label class="radio-inline">
+										<input type="radio" name="stream" value="comm" /> Commerce
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="row">
+							<div class="ed-form col-sm-4">
+								<label class="control-label">Institute/Organisation</label>
+								<input type="text" class="form-control" name="inst" />
+							</div>
+
+							<div class="ed-form col-sm-4"">
+								<label class="control-label">City of residence</label>
+								<input type="text" class="form-control" name="rcity" />
+							</div>
+							<div class="ed-form col-sm-4"">
+								<label class="control-label">Course/Majors</label>
+								<input type="text" class="form-control" name="course" /> 
+							</div>
+						</div>
+					</div>
+
+
+					<div class="form-group">
+						<div class="row">
+							<div class="ed-form col-sm-4">
+								<label class="control-label">Graduation year</label>
+								<input type="integer" class="form-control" name="gyear" /> 
+							</div>
+						</div>
 					</div>
 					<div class="form-group">
-						<label for="pwd">Password:</label>
-						<input type="password" class="form-control" id="pwd">
+						<div class="row">
+							<div class="ed-form col-sm-4">
+								<label class="control-label">Hobbies</label>
+								<textarea type="text" class="form-control" name="hobbies" row="3">
+								</textarea>							
+							</div>
+							<div class="ed-form col-sm-4">
+								<label class="control-label">Past Achievements</label>
+								<textarea type="text" class="form-control" name="pach" row="3">
+								</textarea>							
+							</div><div class="ed-form col-sm-4">
+							<label class="control-label">Preferences</label>
+							<textarea type="text" class="form-control" name="pref" row="3">
+							</textarea>							
+						</div>
 					</div>
-					<div class="checkbox">
-						<label><input type="checkbox"> Remember me</label>
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
+					<center><button style="margin-top: 20px;" type="submit" id="btn-diff" class="btn btn-default">Save Changes</button></center>
 				</form>
 			</div>
 		</div>
@@ -44,3 +158,4 @@
 </div>
 </body>
 </html>
+
