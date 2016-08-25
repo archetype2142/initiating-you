@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Admin</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1><strong>Dashboard</strong></h1>
+		<div class="row">
+			<div class="col-md-3 sidebar" id="sidebar">
+				<ul class="nav nav-sidebar">
+					<li><center><img src="../img/icon.png" id="circle"></center></li>
+					<li class="heading" style="padding-bottom: 10px;"><center><h2>Admin <strong>Panel</strong></h2></center></li>
+					
+					<hr id="thin">
+					<li><a href="#">Post</a></li>
+					<li><a href="#">Write a Post</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">Log Out</a></li>
+				</ul>
+			</div>
+			<div class="col-md-9 sidebar">
+				<form id="admin" method="post">
+					<div class="form-group">
+						<div class="row">
+							<div class="ed-form col-sm-6">
+								<label class="control-label">Location</label>
+								<input type="text" class="form-control" name="location" placeholder="New Delhi, Noida etc." />
+							</div>
+							<div class="ed-form col-sm-6">
+								<label class="control-label">Duration</label>
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Duration" aria-describedby="basic-addon2">
+									<span class="input-group-addon" id="basic-addon2">months</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="ed-form col-sm-6">
+								<label class="control-label">Post</label>
+								<input type="text" class="form-control" name="post" placeholder="PHP Expert" />
+							</div>
+							<div class="ed-form col-sm-6">
+								<label class="control-label">Stipend</label>
+								<input type="integer" class="form-control" name="stipend" placeholder="unpaid or " />
+							</div>
+							<div class="ed-form col-sm-6">
+								<label class="control-label">Start Date</label>
+								<input type="date" class="form-control" name="sdate" />
+							</div>
+							<div class="ed-form col-sm-6">
+								<label class="control-label">End date</label>
+								<input type="date" class="form-control" name="edate" />
+							</div>
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Type</label>
+								<div>
+									<label class="checkbox-inline">
+										<input type="checkbox" name="type" value="hobby" /> Hobby
+									</label>
+									<label class="checkbox-inline">
+										<input type="checkbox" name="type" value="pro" /> Professional
+									</label>
+									<label class="checkbox-inline">
+										<input type="checkbox" name="type" value="virtual" /> virtual
+									</label>
+								</div>
+							</div>
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Description</label>
+								<textarea type="text" class="form-control" name="pref" rows="7">
+								</textarea>							
+							</div>
+						</div>
+						<center><button style="margin-top: 20px;" type="submit" id="btn-diff" class="btn btn-default">Save Changes</button></center>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
