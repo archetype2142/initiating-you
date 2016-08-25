@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<style>
+		.hr {
+			border-left: 5px solid #F96B61;
+			height: 100%;
+		}
+	</style>
+	<div class="container">
+		<h1><strong>Contact Us</strong></h1>
+		<p>We do not have a street address,but we will be very happy to hear from you. It could be a feedback, a suggestion, a comment, a query, or simply a Hello! Feel free to contact us by either filling the form, or by writing us a mail. Get in touch today.</p>
+		<div class="row">
+			<div class="col-sm-6">
+				<form id="contactForm" method="post">
+					<div class="form-group">
+						<div class="row">
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Name</label>
+								<input type="text" class="form-control" name="name" required autofocus />
+							</div>
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Email</label>
+								<input type="email" class="form-control" name="email" required />
+							</div>
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Phone Number</label>
+								<input type="integer" class="form-control" name="pno" required />
+							</div>
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Subject</label>
+								<input type="text" class="form-control" name="sub" required />
+							</div>
+							<div class="ed-form col-sm-12">
+								<label class="control-label">Your Message</label>
+								<textarea type="text" class="form-control" name="message" row="8" required>
+								</textarea>							
+							</div>
+						</div>
+					</div>
+					<center><button style="margin-top: 20px;" type="submit" id="btn-diff" class="btn btn-default">Submit</button></center>
+				</form>
+			</div>
+			<div class="col-sm-6">
+				<div class="hr" style="padding-left: 20px; margin-top: 10px;">
+					Employers, do you have anything to say? We are here to hear you. Write to us at
+					<p class="links"><a href="#">employer@initiatingyou.com</a></p>
+
+					People out there who are willing to work with us, write to us at
+					<p class="links"><a href="#">joinus@initiatingyou.com</a></p>
+					We'll get back to you soon.<br><br>
+
+					For everything else, you can write to us at
+					<p class="links"><a href="#">info@initiatingyou.com</a></p>
+					We value what you want to say.
+
+					You can also get in touch with us via our social networks:
+					<div class="links">
+						<a href="#">Facebook</a><br>
+						<a href="#">LinkedIn</a><br>
+						<a href="#">Instagram</a><br>
+						<a href="#">Twitter</a><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
