@@ -268,3 +268,26 @@ button{
 .imjob{
 	border-radius: 20px;
 }
+.prof-pic{ 
+	max-height: 250px;
+	max-width: 250px;
+	border-radius: 50%;
+}
+.about{
+	font-size: 1.5em;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#titl{
+	color: #696969;
+}
+.back{
+	padding-top: 20px;
+	height: 380px;
+	background: #ED564B;
+	margin-bottom: 70px;
+}
+.back #name{
+	margin-top: 20px;
+	font-size: 60px;
+}
