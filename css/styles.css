@@ -3,12 +3,12 @@ body{
 }
 
 .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
+	background-color: transparent;
+	border-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #F96B61;
+	color: #F96B61;
 }
 
 .nav li{
@@ -60,6 +60,7 @@ button{
 }
 
 #btn-diff{
+	text-decoration: none;
 	width: 220px;
 	color: #FFF;
 	border-radius: 0px;
@@ -77,7 +78,7 @@ button{
 }
 
 .footer-bs {
-    background-color: #3c3d41;
+	background-color: #3c3d41;
 	padding-top: 40px;
 	padding-bottom: 10px;
 	color: rgba(255,255,255,1.00);
@@ -124,19 +125,19 @@ button{
 	margin: 0px 25px;
 	height: relative;
 	text-align: center;
-    margin-top: 20px;
-    padding: 40px 0px 20px 0px;
-    background-color: #f7f7f7;
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	margin-top: 20px;
+	padding: 40px 0px 20px 0px;
+	background-color: #f7f7f7;
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .logbox img{
 	padding-top: 40px;
 	padding-bottom: 30px;
-    height: auto;
-    width: 150px;
+	height: auto;
+	width: 150px;
 }
 
 .logbox .form-signin .form-control{
@@ -145,7 +146,7 @@ button{
 
 .form-signin button:hover{
 	background: #ED564B;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 .form-signin button{
 	background: #ED564B;
@@ -165,8 +166,8 @@ button{
 	padding-bottom:10px;
 }
 .nav-sidebar img{
-	 padding-top: 15px; 
-	 border:none;
+	padding-top: 15px; 
+	border:none;
 }
 .nav-sidebar a{
 	color: #ED564B;
@@ -188,13 +189,13 @@ button{
 }
 .int{
 	padding: 20px;
-    text-align: center;
+	text-align: center;
 }
 #circle {
 	padding: 15px 15px;
-    border-radius: 50% 50% 50% 50%;
-    width: 220px;
-    height: auto;
+	border-radius: 50% 50% 50% 50%;
+	width: 220px;
+	height: auto;
 }
 #thin{
 	width: 80%;
@@ -202,7 +203,8 @@ button{
 }
 .ed-form{
 	padding-top: 10px;
-}.ch-grid {
+}
+.ch-grid {
 	margin: 40px 20px 0 0;
 	padding: 0;
 	list-style: none;
@@ -214,7 +216,7 @@ button{
 .ch-grid:after,
 .ch-item:before {
 	content: '';
-    display: table;
+	display: table;
 }
 
 .ch-grid:after {
@@ -226,4 +228,43 @@ button{
 	height: 220px;
 	display: inline-block;
 	margin: auto;
+}
+.int{
+	padding: 20px;
+	text-align: left;
+}
+.info{
+	font-size: 3;
+}
+.title{
+	margin-top: 3px;
+	font-size: 4;
+}
+.job{
+	margin-bottom: 0px;
+}
+.det{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 25%;
+	margin-bottom: 30px;
+}
+.spimg{
+	margin-top: 20px;
+}
+.box-sp{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 40px;
+	font-size: 23px;
+	color: white;
+	padding: 20px 10px;
+	border-radius: 20px;
+	background: #ED564B;
+	padding-bottom: 40px;
+	border: 2px solid #B7B7B7; 
+	border-radius: 10px;
+}
+.imjob{
+	border-radius: 20px;
 }
